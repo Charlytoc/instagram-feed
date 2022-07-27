@@ -1,0 +1,43 @@
+head {
+    visibility: hidden;
+}
+body {
+    background-color: beige;
+    width: 100%;
+    margin: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.post {
+    max-width: 35%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.upper {
+    display: block;
+}
+.post-title {
+    float: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.post-id {
+    float: right;
+    color: grey;
+    margin-right: 10px;
+}
+.foot-text {
+    padding: 0.5em;
+}
